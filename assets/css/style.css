@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
+body{
+    margin: 0;
+    background-color: #F8D948;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 3.5rem;
+    color: #939597;
+    font-weight: 700;
+}
+
+p{
+    color: white;
+    line-height: 18px;
+}
+.instructionTask{
+    text-align: center;
+    background-color: #939597;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.instructionTask{
+    display: block;
+    align-self: center;
+}
+
+#buttonAdd:hover{
+    cursor: pointer;
+    color: #F8D948;
+    background-color: #939597;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+.tasks p{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.tasks p{
+    color: black;
+}
+.bi-trash-fill:hover{
+    cursor: pointer;
+    color: #939597;
+}
