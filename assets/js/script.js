@@ -1,8 +1,3 @@
-// $(function(){
-//     $("#buttonAdd").click(function(){
-//         $("ul").append("<li> Marche pas!! Visualise pas!! Marche pas!! Visualise pas!!</li>");
-//     });
-// });
 $(function(){
     function addItem(text){
         var id = $('li').length+1;
@@ -38,7 +33,7 @@ $(function(){
         //  var getId = $(this).data('toto'); 
         //  $('li[data-toto="'+getId+'"]').remove();
 
-        
+
            $('li[data-toto="'+$(this).data('toto')+'"]').remove(); // façon plus factorisée en une seule ligne (mieux)
         });
 });
