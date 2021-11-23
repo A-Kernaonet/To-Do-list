@@ -3,10 +3,12 @@
 body{
     margin: 0;
     background-color: #F8D948;
+
 }
 
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
 }
 h1{
     font-size: 3.5rem;
